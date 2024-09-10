@@ -1,4 +1,5 @@
-Yes-Bank-Stock-Closing-Price-Prediction
+#Yes-Bank-Stock-Closing-Price-Prediction
+
 The project focused on predicting stock prices using historical data. The dataset underwent thorough cleaning to handle missing values, correct data types, and manage outliers, ensuring data quality. Categorical variables were encoded, and numerical features were scaled for optimal modeling.
 
 A Ridge regression model was selected for its ability to manage multicollinearity and prevent overfitting. Hyperparameter tuning using GridSearchCV identified the best model with an optimal alpha value of 1.
