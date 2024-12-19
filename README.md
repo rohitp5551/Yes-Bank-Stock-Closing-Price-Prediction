@@ -61,3 +61,6 @@ In conclusion, this project not only demonstrates the practical application of m
 
 ## Future Work
 Future work could explore additional models or advanced feature engineering techniques to further enhance predictive capabilities. Considerations for using more complex algorithms, like LSTM or other deep learning approaches, could also be beneficial in capturing the temporal aspects of stock price movements.
+
+## References
+https://github.com/rohitp5551/ML-final/blob/main/Final%20Project%20ML.ipynb
