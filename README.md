@@ -46,21 +46,16 @@ Data cleaning is a crucial step in the data preprocessing pipeline. It involves 
 - **Hyperparameter Tuning:** Utilized GridSearchCV to identify the best model, resulting in an optimal alpha value of 1.
 
 ## Model Evaluation
-- The model demonstrated strong performance during evaluation on both training and test datasets.
-- Achieved a high R-squared score of **0.99** for both sets, indicating a robust fit.
-- Mean Squared Error (MSE) metrics were low, with values of **50.04** for training and **82.43** for testing, highlighting the model's predictive accuracy.
+The model demonstrated strong performance during evaluation on both training and test datasets. It achieved a high R-squared score of 0.98 before and 0.97 after hyperparameter tuning.Mean squared error (MSE) metrics were also low, with values of 39.03 before and 55.98 after tuning, highlighting the model's predictive accuracy.
 
 ## Conclusion
-This project successfully applied machine learning techniques, specifically Ridge regression, to predict stock prices of Yes Bank using historical data. The meticulous data preprocessing ensured that the dataset was clean, relevant, and appropriately formatted, which is crucial for building effective predictive models.
+The project focused on predicting stock prices using historical data. The dataset underwent thorough cleaning to handle missing values, correct data types, and manage outliers, ensuring data quality. Categorical variables were encoded, and numerical features were scaled for optimal modeling.
+A Ridge regression model was selected for its ability to manage multicollinearity and prevent overfitting. Hyperparameter tuning using GridSearchCV identified the best model with an optimal alpha value of 0.1.
+Exploratory Data Analysis (EDA) provided insights into stock price trends and relationships between variables. Visualizations such as line plots and scatter plots facilitated understanding of data patterns and influential factors affecting stock prices.
 
-The Ridge regression model outperformed expectations, achieving a high R-squared score of **0.99**, which indicates that the model explains 99% of the variance in the stock prices. Such a high level of accuracy is indicative of the effectiveness of the chosen features and the model itself.
-
-Additionally, the project highlighted the importance of thorough exploratory data analysis (EDA) and model evaluation metrics, such as Mean Squared Error (MSE), in understanding model performance and refining predictive capabilities. This not only provides a robust methodology for predicting stock prices but also serves as a foundation for applying similar techniques to other financial datasets.
-
-In conclusion, this project not only demonstrates the practical application of machine learning in finance but also emphasizes the need for continuous improvement and adaptation in model development to achieve even greater predictive accuracy in future endeavors.
+In summary, the project successfully applied machine learning techniques, specifically Ridge regression, to predict stock prices. Rigorous data preprocessing, effective model selection through hyperparameter tuning, and comprehensive evaluation metrics underscored the project's methodology and findings. Future work could explore additional models or advanced feature engineering techniques to further enhance predictive capabilities.
 
 ## Future Work
 Future work could explore additional models or advanced feature engineering techniques to further enhance predictive capabilities. Considerations for using more complex algorithms, like LSTM or other deep learning approaches, could also be beneficial in capturing the temporal aspects of stock price movements.
 
-## References
-https://github.com/rohitp5551/ML-final/blob/main/Final%20Project%20ML.ipynb
+
